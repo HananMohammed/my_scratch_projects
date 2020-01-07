@@ -1,0 +1,568 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.container{
+  background: url('../Images/background-car.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+  width: 100%;
+}
+.container2{
+  background: url('../Images/hanan.jpeg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+  width: 100%;
+}
+
+/* ******** The Nav Starts Here *********** */
+nav{
+  width: 100%;
+  height: 60px;
+  margin: 0;position: sticky;top: 0;background-color:rgb(51, 51, 59);
+}
+a:hover{
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+  float: left;
+  width: 50%;
+}
+
+li{
+  float: left;
+  padding: 15px 10px 15px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.current{
+  color: rgb(136, 136, 253);
+}
+
+nav div{
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+
+nav div input{
+  padding: 10px 10px 10px 12px;
+  margin-right: 2%;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 25%;
+  float: left;
+}
+
+nav div button{
+  padding: 10px;
+  width: 90px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+  float: left;
+}
+
+/* ****** The Nav Ends Here ************ */
+
+.text{
+  text-align: center;
+  color: white;
+  font-size: 25px;
+ margin-top:630px;
+}
+.text2{
+  text-align: center;
+  color: white;
+  font-size: 25px; margin-top:70px;margin-right: 40%;
+}
+/* **** The Second Page PRODUCTS starts Here ******* */
+
+#products{
+  height: 754px;
+}
+
+.items{
+  width: 100%;
+  height: 100%;
+}
+#item{
+  float: left;
+  margin: 1% 1.5%;
+  width: 380px;
+  height: 250px;
+  
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+}
+
+.item1{
+  background: url('../Images/2008-bmw-m1-hommage-23.jpg') 100%;
+  background-size: cover;
+}
+.item2{
+  background: url('../Images/car1.jpg') 100%;
+  background-size: cover;
+}
+.item3{
+  background: url('../Images/car2.jpeg') 100%;
+  background-size: cover;
+}
+.item4{
+  background: url('../Images/car7.jpg') 100%;
+  background-size: cover;
+}
+.item5{
+  background: url('../Images/car6.jpg') 100%;
+  background-size: cover;
+}
+.item6{
+  background: url('../Images/car7.jpeg') 100%;
+  background-size: cover;
+}
+
+
+
+/* *********  The Second Page PRODUCTS Ends Here  ********* */
+
+/* ************ The Third Page BMW Starts Here ************ */
+
+#BMW{
+  background-size: cover;
+  height: 754px;
+}
+#car_type{
+  text-align: center;background-color: rgb(205, 205, 221);height: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;margin-top:-100px;margin-bottom: 50px;
+}
+
+.bmw-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border-radius: 15px;box-shadow: 10px 10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+.bmw-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px; border-radius: 15px;
+}
+.bmw-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.bmw-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.bmw-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+/* ********************** */
+/* ************ The Forth Page Chevrolet Starts Here ************ */
+#Chevrolet{
+  height: 754px;
+}
+#chev_type{
+  text-align: center;background-color: rgb(205, 205, 221);height: 30px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;margin-bottom: 50px;margin-top: 50px;
+}
+.chevrolet-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+  
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+}
+.chevrolet-item-img{
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;  border-radius: 15px;
+}
+.chevrolet-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.chevrolet-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.chevrolet-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+
+/* ************************** */
+/* ********** The Fifth Page MERCEDES Starts Here **************** */
+#Mercedes{
+  height: 754px;
+}
+
+.mercedes-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+.mercedes-item-img{
+  width: 100%;  border-radius: 15px;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.mercedes-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.mercedes-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.mercedes-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ****************************** */
+/* ********** The Sixth Page BUGATTI Starts Here **************** */
+#Bugatti{
+ 
+  height: 754px;
+}
+
+.bugatti-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+.bugatti-item-img{ border-radius: 15px;
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.bugatti-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.bugatti-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.bugatti-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ******************** */
+/* ********** The Seventh Page FERRARI Starts Here **************** */
+#Ferrari{
+  
+  height: 754px;
+}
+
+.ferrari-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+.ferrari-item-img{
+  border-radius: 15px;
+  width: 100%;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.ferrari-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.ferrari-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.ferrari-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+
+/* ************************** */
+/* ********** The Eighth Page ASTON Starts Here **************** */
+#Aston-Martin{
+  
+  height: 754px;
+}
+
+.aston-item{
+  width: 20%;
+  background: white;
+  height: 310px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 10px -10px 15px  rgb(219, 219, 230);border: 1px solid rgb(86, 86, 236);
+
+  float: left;
+  margin-left: 2%;
+  text-align: center;
+}
+.aston-item-img{
+  width: 100%;  border-radius: 15px;
+  height: 75%;
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+.aston-item h4{
+  float: left;
+  color: blue;
+  width: 50%;
+}
+.aston-item p{
+  float: right;
+  color: blue;
+  width: 50%;
+}
+.aston-item input{
+  background-color: blue;
+  color: white;
+  width: 90%;
+  height: 30px;
+  border: 1px solid blue;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+}
+/* *************** */
+/* *********** The Login page style Starts HERE ***************** */
+.card-body{
+  width: 30%;
+  border: 3px solid grey;
+  border-radius: 15%;
+  margin-left: 17%;
+  margin-top: 40px;
+  line-height: 50px;
+}
+.card-body a{
+  color: rgb(83, 66, 158);
+}
+.card-title{
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+.card-text{
+  color: white;
+  text-align: center;
+}
+.form-control{
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  opacity: 0.8;
+}
+.row{
+  text-align: center;
+}
+.row div{
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+form button{
+  width:100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(0, 84, 174);
+  color: white;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+.form-check{
+  width:90%;
+  margin-left: 50px;
+}
+.form-check-label{
+  color: white;
+}
+
+/* ************ The Login Page Style Ends Here ****************** */
+/* ************* Contact Us Page style starts here ************* */
+.contactUs-container{
+  height: 500px;
+  width: 100%;
+}
+.add{
+  width: 100%;
+}
+.address{
+  float: left;
+  color: blue;
+  width: 30%;
+  text-align: center;
+  margin-top: 20px;
+}
+.address1{
+  margin-top:100px;font-size: 16px;color: blue;float: right;margin-right: 10%;
+}
+.address img{
+  float: left;
+}
+.facebook{
+  float: left;
+  margin-top: 15px;
+}
+.linkdin{
+  float: left;
+  margin-top: 15px;
+}
+.address-facebook{
+  width: 100%;
+  float: left;
+}
+.address-linkdin{
+  width: 100%;
+  float: left;
+}
+.address h3{
+  text-align: left;
+}
+
+
+/* ******************** */
+@media only screen and (max-width: 1300px){
+  nav div{
+    width: 46%;
+  }
+  #item{
+    width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  nav div{
+    width: 60%;
+  }
+  ul{
+    width: 35%;
+  }
+  li{
+    padding: 10px 0 15px 10px;
+  }
+  #item{
+    width: 220px;
+  }
+
+}
+@media only screen and (max-width: 765px){
+  ul{
+    width: 45%;
+  }
+  li{
+    padding: 10px 0 15px 5px;
+  }
+  nav div{
+    width: 50%;
+  }
+
+  nav div input{
+    width: 135px;
+    padding: 7px 0 7px 5px;
+  }
+  nav div button{
+    width: 58px;
+    padding: 7px 0;
+  }
+  #item{
+    width: 165px;
+  }
+}

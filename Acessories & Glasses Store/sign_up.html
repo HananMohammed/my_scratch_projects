@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>  sign up to our store </title>
+    <link rel="stylesheet"   href="css/signUp_style.css"/>
+    <meta input="viewport" content="width=device-width initial-scale=1" />
+    <script src="js/script.js"></script><script src="js/jquery-3.4.1.js"></script>   
+    <script src="js/jquery-3.4.1.min.js"></script> 
+           <script src = 'js/plugin.js'></script></head>
+
+<body>
+ <!-- start of main  div part -->
+    <div class = "main-div" >
+        <!--start of header div logo & nav --> 
+      <div class = "header" >
+         
+            <img src ="imges\photo2.jpg" id="head"/>
+          
+         
+              <ul id ="header">
+                         <li> <a href ="index.html" > Home</a></li>
+                         <li> <a href ="all_products.html" >products </a> </li>
+                         <li> <a href ="login.html" >  login </a> </li>
+                         <li> <a href ="contact_us.html" >  contact_us </a></li>
+                         <li id="Demo"></li>
+
+               </ul>
+             
+         
+        
+      </div>
+      <img src="imges/drop.PNG" id="drop"/>
+
+     <!--end of header div logo & nav -->
+     <div class ="section" >
+      <h1> signUp..</h1>
+      <div class="space"></div>
+      <img src="imges/login.png"  id = "view_image"/>
+      <div class="space"></div>
+      <script>
+      function preview_image(event){
+            var reader = new FileReader();
+            reader.onload = function(){
+              var output = document.getElementById('view_image');
+              output.src = reader.result ; 
+            };
+          reader.readAsDataURL(event.target.files[0]);
+      };
+      
+      
+      </script>
+      <script src="js/validation.js"></script>
+      <input type ="file" class="File" onchange="preview_image(event) " name="photo_file"/>
+      <div class="space"></div>
+      <input type="text" placeholder ="username" id="name"  onclick="validate()"/>
+      <div class="space"></div>
+             <input type="email" placeholder="your email@gmail.com " id="email"  onclick="validate()"/>
+             <div class="space"></div>
+             <input type="tel" placeholder="phone number" id="phone"   onclick="validate()"/>
+             <div class="space"></div>
+             <input type="password" placeholder="password plz" id ="pass" onclick="validate()"/>
+             <div class="space"></div>
+             <button class="btn_signup" onclick="validate()">Sign Up</button> 
+      <button class="btn_cancel"> Cancel</button>
+      <div class="space"></div>
+      <p> if  you have an account plz <a href = "login.html">login</a> ? </p>
+  
+</div>
+<div class="footer"> 
+    
+
+  <p> All right reserved to show inc 2019 </p>
+    <div class = "social_div">
+        <img src ="imges\icons\icons8-facebook-neu-48.png"  width= "50" height ="50" />
+       <img src ="imges\icons\icons8-gmail-48.png"  width= "50" height ="50" />
+       <img src ="imges\icons\icons8-twitter-48.png"  width= "50" height ="50" />
+       
+       <img src ="imges\icons\icons8-whatsapp-48.png"  width= "50" height ="50" />
+       <img src ="imges\icons\icons8-yahoo-48.png"  width= "50" height ="50" />
+    </div>
+
+<!--  end of footer -->
+</div>
+    </div>
+    
+   
+</body>
+
+</html>

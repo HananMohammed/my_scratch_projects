@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SignUp</title>
+  <link type="text/css" rel="stylesheet" href="css/signup.css">
+  <script src="signup.js"></script>
+</head>
+<body>
+    <div class="container">
+       <!-- ***************** Nav starts here *********** -->
+       <!-- <div id="elem">A blinking element</div> -->
+       <!-- <p id="demo" style="color: beige;"></p>
+       <button onclick="myStopFunction()">Stop Time</button>
+       <button onclick="myContinueFunction()">Continue Time</button> -->
+
+        <nav>
+          <ul>
+            <li><a href='index.html'>Home</a></li>
+            <li><a class="current" href="login.html">Login</a></li>
+            <li><a href="ContactUs.html">Contact Us</a></li>
+          </ul>
+          <div>
+            <input type="text" placeholder="Search with car type">
+            <button>Search</button>
+          </div>
+        </nav>
+               <!-- ***************** Nav ends here *********** -->
+          <!-- ************ The SignUp Card Starts Here ******* -->
+        <div>
+            <div class="signup-card">
+                <form>
+                    <div>
+                      <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" class="form-control" id="FirstName" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="LastName">Last Name</label>
+                        <input type="text" class="form-control" id="LastName" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                        <label for="Password">Password</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                      </div>
+                      <div class="form-group">
+                        <label for="Re-password">Re-password</label>
+                        <input type="password" class="form-control" id="Re-password" placeholder="Re-password">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="PhoneNumber">Phone Number</label>
+                      <input type="tel" class="form-control" id="PhoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group">
+                      <label class="label" for="inputAddress">Address</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Type Your Adress">
+                    </div>
+                    <div>
+                      <div class="form-group">
+                        <label class="label" for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity" placeholder="City">
+                      </div>
+                      <div class="form-group">
+                        <label class="label" for="inputCountry">Country</label>
+                        <input type="text" class="form-control" id="inputCountry" placeholder="Country">
+                      </div>
+                      <div class="form-group">
+                        <label class="label" for="inputE-mail">E-Mail</label>
+                        <input type="text" class="form-control" id="inputE-mail" placeholder="E-Mail">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Remember Me
+                        </label>
+                      </div>
+                    </div>
+                    <button type="submit"  onClick="v()" class="btn">Sign up</button>
+                    <!-- <button type="submit"  onClick="show_name()" class="btn">Sign up</button> -->
+                  </form>
+            </div>
+          </div>
+          <!-- ************ The SignUp Card Ends Here ******* -->
+<!-- <a href='http://example.com/file.zip'>...</a>
+<a href='http://ya.ru'>...</a> -->
+
+    
+  </div>
+<!-- <script>
+function v(){
+  // function for phone
+  function v_phone(){
+    let phone_value = document.getElementById('PhoneNumber').value;
+    reg_phone = /^(\d{11})$/i;
+    is_right = reg_phone.test(phone_value);
+    alert('phone is: ' + is_right); 
+  }
+  // function for name
+  function v_name(){
+    let name_value = document.getElementById('FirstName').value;
+    reg_name= /^ ([a-Z]{3,20}) $/i;
+    is_right= reg_name.test(name_value);
+    alert('name is: ' + is_right);
+  }
+  // validate the password and re-password
+  let f_pass = document.getElementById('Password').value;
+  t_pass = document.getElementById('Re-password').value;
+  if(f_pass != t_pass){
+    alert('The password doesnot match with the Re-password');
+  }
+  // function for password
+  function v_password(){
+    let pass_value = document.getElementById('Password').value;
+    reg_pass = /^ ([a-Z]{1,16})*([0-9]{1,16}){8,16} $/i;
+    // reg_pass = /^ ([a-zA-Z])*[\%@_+=.-]?([0-9]{1,16})*{8,16} $/i;
+    is_right = reg_pass.test(pass_value);
+    alert('Password is: ' + is_right);
+  }
+
+  // function for E-mail
+  function v_email(){
+  let email_value = document.getElementById('inputE-mail').value;
+  reg_email = /^\w+([\.-_]?\w+)*@\w+([\.-_]?\w+)*(\.\w{2,3})+$/;
+  is_right = reg_email.test(email_value);
+  alert('E-mail is: '+ is_right);
+  }
+
+
+
+//call
+v_phone();
+v_name();
+v_password();
+v_email();
+}
+
+</script> -->
+
+</body>
+</html>

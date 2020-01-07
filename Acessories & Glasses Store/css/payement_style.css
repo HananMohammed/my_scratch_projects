@@ -1,0 +1,110 @@
+body{
+    width:100%;
+    height: 100%;
+    background-color:rgb(218, 201, 235);
+    margin: 0%;
+  }
+  .main-div{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+  }
+  .header{
+    width: 100%;
+    height: 60px;
+    background-color:rgb(81, 53, 107);
+    color: white;
+    scroll-margin-right: 100px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+  
+  }
+  .header img {
+         width:100px;
+         height: 60px;
+         alt :"logo img";
+  }
+  .header ul {
+    width: 60%;
+    height: 50px;
+    list-style-type: none;
+    float: right ;
+  }
+   li a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 20px
+    
+  }
+  li a:hover {
+    background-color:black;
+    color: aliceblue;
+  }
+  .main-section blockquote{
+      text-align: center;
+      color:black;
+      font-size: 20px;
+      font-style: italic  ;
+      margin-top: 15px;
+      padding-left: 10px;
+  }
+  .main-section ul{
+      list-style-type: none;
+     padding-top: 10%;
+     
+  }
+  .main-section ul img{
+      width:150px;
+      height: 150px;
+      
+      alt:"payment method pic";
+       
+         
+  }
+  .main-section ul li{
+      text-decoration: none;
+      float:left;
+      margin-left: 30px;
+      padding-top: 70px;
+      
+    
+
+  }
+  .main-section ul li input{
+      padding-top: 7px;
+      margin-top: 3%;
+      background-color: rgb(214, 205, 205);
+      color:black ; )
+      
+  }
+  .btn_pay{
+      text-align: center;
+      width: 70px;
+      height: 30px;
+      margin-top: 3%;
+      margin-left: 30%;
+      padding-top: 5px;
+      background-color: rgb(54, 19, 87);
+      color: white;
+      border: 2px solid black;
+  }
+.footer{
+    background-color: rgb(81, 53, 107);
+     text-align: center;
+     margin-top: 50%;
+  }
+.footer p{
+    
+    color: white;
+    size: 120px;
+    font: italic bold;
+  }
+  .footer .social_div img{
+   width:30px;
+   height: 20px;
+   padding-left: 10 px;
+   
+  
+  }

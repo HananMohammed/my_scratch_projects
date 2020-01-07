@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.container{
+  background: url('../Images/background-car.jpg') no-repeat 100%;
+  background-size: cover;
+  height: 754px;
+  width: 100%;
+}
+ /* ******* The Nav starts here ********** */
+nav{
+  width: 100%;
+  height: 60px;
+  margin: 0;
+}
+a:hover{
+  color: blue;
+}
+
+ul{
+  list-style-type: none;
+  float: left;
+  width: 50%;
+}
+
+li{
+  float: left;
+  padding: 15px 10px 15px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+.current{
+  color: blue;
+}
+
+nav div{
+  float: right;
+  width: 35%;
+  margin-top: 10px;
+}
+
+nav div input{
+  padding: 10px 10px 10px 12px;
+  margin-right: 2%;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 30%;
+}
+
+nav div button{
+  padding: 10px;
+  width: 90px;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
+ /* ********* The Nav Ends Here ****** */
+ /* **** The SignUp Card starts Here ********* */
+.signup-card{
+  width: 50%;
+  margin-left: 30%;
+  color: white;
+  margin-top: 100px;
+}
+
+.form-control{
+  padding: 10px;
+  border-radius: 5px;
+  width: 82%;
+  opacity: 0.8;
+  color: blue;
+  font-size: 15px;
+}
+.form-group{
+  float: left;
+  width: 50%;
+}
+
+.label{
+  margin-right: 40px;
+}
+.form-check{
+  width: 100%;
+  margin: 10px 0;
+}
+.btn{
+  padding: 10px;
+  border-radius: 5px;
+  width: 91%;
+  opacity: 0.8;
+  margin-top: 15px;
+}
+input:hover{
+  background-color: rgb(0, 83, 179);
+  color: white;
+}
+/* ::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+/* } */ 
+input:hover::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+/* ********* The SignUp Card Ends Here ********* */
+
+
+
+
+/* ******************** */
+@media only screen and (max-width: 1300px){
+  nav div{
+    width: 46%;
+  }
+  #item{
+    width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 1000px){
+  nav div{
+    width: 60%;
+  }
+  ul{
+    width: 35%;
+  }
+  li{
+    padding: 10px 0 15px 10px;
+  }
+  #item{
+    width: 220px;
+  }
+
+}
+@media only screen and (max-width: 765px){
+  ul{
+    width: 45%;
+  }
+  li{
+    padding: 10px 0 15px 5px;
+  }
+  nav div{
+    width: 50%;
+  }
+
+  nav div input{
+    width: 135px;
+    padding: 7px 0 7px 5px;
+  }
+  nav div button{
+    width: 58px;
+    padding: 7px 0;
+  }
+  #item{
+    width: 165px;
+  }
+}
